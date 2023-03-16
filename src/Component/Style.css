@@ -1,0 +1,52 @@
+.Title{
+    background-color: coral;
+    padding: 5px;
+    margin-top: 40px ;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: large;
+    font-family: "Work sans";
+    font-weight: bold;
+    color: black;
+}
+.box{
+    background-color: coral;
+    min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   padding: 5px;
+  border:2px solid black ;
+  border-radius: 10px;
+  margin: 2px !important;
+  
+}
+.nav-link {
+    background-color: aqua !important;
+    color: black ;
+    border:2px solid black !important ;
+  border-radius: 10px;
+  text-align: center;
+  font-size: larger;
+  font-family: "Work sans";
+  cursor: pointer;
+  padding: 5px;
+  margin: 5px;
+}
+.suggestions{
+    cursor: pointer;
+    border: 1px solid black;
+    border-top: none;
+    background-color: rgba(240, 248, 255, 0.667);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 1px;
+}
+.suggestions:hover{
+    background-color: bisque;
+   
+}
+.cardStyle{
+    width: 80%;
+    margin-left: 50px;
+    
+}
